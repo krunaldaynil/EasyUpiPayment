@@ -234,7 +234,7 @@ class EasyUpiPayment constructor(
 			}
 
 			payeeMerchantCode?.run {
-				checkNotNull(this) { "Payee Merchant Code Should be Valid!" }
+				// checkNotNull(this) { "Payee Merchant Code Should be Valid!" }
 			}
 
 			transactionId.run {
